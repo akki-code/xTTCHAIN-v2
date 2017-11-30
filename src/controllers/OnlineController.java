@@ -18,7 +18,7 @@ public class OnlineController extends HttpServlet{
 		 if(!(request.getSession().getAttribute("omg")==null))
 		  {
 		  		String logout = request.getParameter("logout");
-		  		//String test   = request.getParameter("Test");
+		  
 		  		String test = "";
 		
 		  		if("LOGOUT".equals(logout))
